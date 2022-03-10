@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace BankSystem
 {
-    //class DepositAccount : Account<DepositAccount>
     class DepositAccount : Account
     {
         public new bool IsDeposit { get; set; } = true;
