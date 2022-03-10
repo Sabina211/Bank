@@ -65,7 +65,7 @@
         <Label Content="Тип клиента" Grid.Column="1" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label Content="Счета клиента" Grid.Column="1" HorizontalAlignment="Left" Margin="10,107,0,160" FontSize="14"/>
         <Button Content="Логи" 
-            Command="{Binding CloseAccountCommand}"
+            Command="{Binding ShowLogsCommand}"
             Grid.Column="1" HorizontalAlignment="Left" Margin="294,320,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="1.197,-1.641"/>
 
     </Grid>
