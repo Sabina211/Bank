@@ -1,0 +1,78 @@
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\bin\Debug\BankSystem.exe.config
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\bin\Debug\BankSystem.exe
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\bin\Debug\BankSystem.pdb
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\MainWindow.g.cs
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\App.g.cs
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem_MarkupCompile.cache
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem_MarkupCompile.lref
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\MainWindow.baml
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.g.resources
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.Properties.Resources.resources
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.GenerateResource.cache
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CoreCompileInputs.cache
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.exe
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.pdb
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\bin\Debug\Newtonsoft.Json.dll
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\bin\Debug\Newtonsoft.Json.xml
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CopyComplete
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\BankSystem.csprojAssemblyReference.cache
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\AddAccount.g.cs
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\AddAccount.baml
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\TopUpAccount.g.cs
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\TopUpAccount.baml
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\CloseAccount.g.cs
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\CloseAccount.baml
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\TransferMoney.g.cs
+E:\Сабина, курс\Задание 13\BankSystem\BankSystem\obj\Debug\TransferMoney.baml
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\bin\Debug\BankSystem.exe.config
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\bin\Debug\BankSystem.exe
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\bin\Debug\BankSystem.pdb
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\bin\Debug\Newtonsoft.Json.dll
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\bin\Debug\Newtonsoft.Json.xml
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.csprojAssemblyReference.cache
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\AddAccount.g.cs
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\CloseAccount.g.cs
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\MainWindow.g.cs
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\TopUpAccount.g.cs
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\TransferMoney.g.cs
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\App.g.cs
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem_MarkupCompile.cache
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem_MarkupCompile.lref
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\AddAccount.baml
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\CloseAccount.baml
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\MainWindow.baml
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\TopUpAccount.baml
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\TransferMoney.baml
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.g.resources
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.Properties.Resources.resources
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.GenerateResource.cache
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CoreCompileInputs.cache
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CopyComplete
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.exe
+E:\Сабина, курс\Задание 13 v2\BankSystem\BankSystem\obj\Debug\BankSystem.pdb
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.csprojAssemblyReference.cache
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\AddAccount.g.cs
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\CloseAccount.g.cs
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\MainWindow.g.cs
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\TopUpAccount.g.cs
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\TransferMoney.g.cs
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\App.g.cs
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem_MarkupCompile.cache
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem_MarkupCompile.lref
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.exe
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.pdb
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\bin\Debug\BankSystem.exe.config
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\bin\Debug\BankSystem.exe
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\bin\Debug\BankSystem.pdb
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\bin\Debug\Newtonsoft.Json.dll
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\bin\Debug\Newtonsoft.Json.xml
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\AddAccount.baml
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\CloseAccount.baml
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\MainWindow.baml
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\TopUpAccount.baml
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\TransferMoney.baml
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.g.resources
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.Properties.Resources.resources
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.GenerateResource.cache
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CoreCompileInputs.cache
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CopyComplete
