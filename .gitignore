@@ -1,0 +1,4 @@
+BankSystem/BankSystem/TestGit.cs
+*.cache
+!BankSystem/BankSystem/obj/Debug/BankSystem.csprojAssemblyReference.cache
+BankSystem/.vs/BankSystem/v16/.suo

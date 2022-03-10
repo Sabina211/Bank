@@ -10,6 +10,7 @@ namespace BankSystem
 {
     internal class MainWindowVM : Bindable
     {
+        //коммент
         private Client selectedClient;
         public Client SelectedClient
         {
