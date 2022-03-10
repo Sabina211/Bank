@@ -66,6 +66,7 @@
     <Compile Include="CurrentAccount.cs" />
     <Compile Include="DepositAccount.cs" />
     <Compile Include="RelayCommand.cs" />
+    <Compile Include="TestGit.cs" />
     <Compile Include="TopUpAccount.xaml.cs">
       <DependentUpon>TopUpAccount.xaml</DependentUpon>
     </Compile>
