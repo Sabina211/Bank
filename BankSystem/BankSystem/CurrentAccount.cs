@@ -8,6 +8,7 @@ namespace BankSystem
 {
     class CurrentAccount : Account
     {
+        //вап
         public new bool IsDeposit { get; set; } = false;
 
         public CurrentAccount(string Number, double Balance)
