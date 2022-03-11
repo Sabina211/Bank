@@ -8,12 +8,15 @@ namespace BankSystem
 {
     class CurrentAccount : Account
     {
+<<<<<<< HEAD
         //local
+=======
+        //server
+>>>>>>> 6a5c9a20f91e4e2fa25741e6b7013aac936c8868
         public new bool IsDeposit { get; set; } = false;
 
         public CurrentAccount(string Number, double Balance)
         {
-        //rtyrty
             this.Number = Number;
             this.Balance = Balance;
             this.AccountId = Guid.NewGuid();
