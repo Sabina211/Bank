@@ -8,7 +8,6 @@ namespace BankSystem
 {
     internal class AddAccountVM : WindowTemplateVM
     {
-        //ntcn
         public AddAccount window;
         public List<string> AccountType { get; set; } = new List<string> { "Депозитный счет", "Текущий счет" };
         public List<string> DepositTerms { get; set; } = new List<string> { "3 мес", "6 мес", "1 год" };
