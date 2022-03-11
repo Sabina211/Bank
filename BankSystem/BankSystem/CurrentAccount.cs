@@ -13,6 +13,7 @@ namespace BankSystem
 
         public CurrentAccount(string Number, double Balance)
         {
+        //rtyrty
             this.Number = Number;
             this.Balance = Balance;
             this.AccountId = Guid.NewGuid();
