@@ -8,6 +8,7 @@ namespace BankSystem
 {
     class DepositAccount : Account
     {
+        //test1
         public new bool IsDeposit { get; set; } = true;
         public new int DepositTerm { get; set; }
         private double depositRate;
