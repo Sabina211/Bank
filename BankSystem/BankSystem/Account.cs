@@ -17,6 +17,7 @@ namespace BankSystem
 
     public class Account
     {
+       
         public Guid AccountId { get; set; }
         public string Number { get; set; }
         public double Balance { get; set; }

@@ -64,6 +64,8 @@ namespace BankSystem
                 else { MessageBox.Show("Недостаточно средств"); return; }
 
                 Json.SerializeJson(allClients);
+                Logs.AccountEvent += () => { MessageBox.Show($"Перевод {TransferSum} руб. успешно выполнен"); };
+                Logs.SaveLog(SelectedAccount, SelectedRecipientAccount, TransferSum.ToString(), "Перевод денег");
                 UpdateClients(mainWindowVM);
                 window.Close();
             });

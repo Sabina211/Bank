@@ -35,6 +35,7 @@ namespace BankSystem
         public ICommand TopUpAccountCommand { get; }
         public ICommand CloseAccountCommand { get; }
         public ICommand TransferMoneyCommand { get; }
+        public ICommand LogsCommand { get; }
 
         public MainWindowVM()
         {
@@ -61,6 +62,12 @@ namespace BankSystem
             {
                 TransferMoney transferWindow = new TransferMoney(this);
                 transferWindow.Show();
+            });
+
+            LogsCommand = new RelayCommand(obj =>
+            {
+                LogsWindow logsWindow = new LogsWindow();
+                logsWindow.Show();
             });
 
 

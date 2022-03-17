@@ -65,8 +65,11 @@
     <Compile Include="CloseAccountVM.cs" />
     <Compile Include="CurrentAccount.cs" />
     <Compile Include="DepositAccount.cs" />
+    <Compile Include="Logs.cs" />
+    <Compile Include="LogsWindow.xaml.cs">
+      <DependentUpon>LogsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RelayCommand.cs" />
-    <Compile Include="TestGit.cs" />
     <Compile Include="TopUpAccount.xaml.cs">
       <DependentUpon>TopUpAccount.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CloseAccount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

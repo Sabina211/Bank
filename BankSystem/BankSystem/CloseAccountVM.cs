@@ -36,6 +36,8 @@ namespace BankSystem
                 else { MessageBox.Show("Перед закрытием счета оставшиеся денежные средства необходимо перевести на другой счет");  return; }
                   
                 Json.SerializeJson(allClients);
+                Logs.AccountEvent += () => { MessageBox.Show($"Счет закрыт "); };
+                Logs.SaveLog(SelectedAccount, "Закрытие счета");
                 UpdateClients(mainWindowVM);
                 window.Close();
             });

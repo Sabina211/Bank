@@ -76,3 +76,5 @@ E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\Bank
 E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.GenerateResource.cache
 E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CoreCompileInputs.cache
 E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CopyComplete
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\LogsWindow.g.cs
+E:\Сабина, курс\Задание 14\BankSystem\BankSystem\obj\Debug\LogsWindow.baml

@@ -33,6 +33,8 @@ namespace BankSystem
 
                 allClients[currentClientFindInd].ClientAccounts[currentAccountFindInd].Balance = newBalance;
                 Json.SerializeJson(allClients);
+                Logs.AccountEvent += () => { MessageBox.Show($"Счет пополнен на {SumToAdd} руб. "); };
+                Logs.SaveLog( SelectedAccount, SumToAdd, "Пополнение");
                 UpdateClients(mainWindowVM);
                 window.Close();
             });

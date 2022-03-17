@@ -68,9 +68,9 @@ namespace BankSystem
                 if (AccountTypeIndex == 0)
                 {
                     if (DepositTermIndex == -1) { ErrorEnable = "Visible"; return; }
-                    else 
+                    else
                     {
-                        ErrorEnable = "Hidden"; 
+                        ErrorEnable = "Hidden";
                         DepositAccount newAccount = new DepositAccount(AccountNumber, 0, DepositTermValue);
                         allClients = AddMetod(newAccount);
                     }
@@ -83,6 +83,8 @@ namespace BankSystem
 
                 ErrorEnable = "Hidden";
                 Json.SerializeJson(allClients);
+                Logs.AccountEvent += () => { MessageBox.Show($"Счет добавлен "); };
+                Logs.SaveLog("Добавление счета");
                 UpdateClients(mainWindowVM);
                 window.Close();
             });
