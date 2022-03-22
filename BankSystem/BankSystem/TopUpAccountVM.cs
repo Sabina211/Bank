@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
+using MoneyCheckLibrary;
 
 namespace BankSystem
 {
@@ -24,19 +25,25 @@ namespace BankSystem
                     return;
                 }
                 window = Application.Current.Windows.OfType<TopUpAccount>().SingleOrDefault(w => w.IsActive);
-                int sum = Convert.ToInt32(SumToAdd);
-                double newBalance = SelectedAccount.Balance + sum;
-                List<Client> allClients = Json.DeserializedCustomersJson();
+                bool flag = MoneyFormat.CheckFormatMoney(SumToAdd);
 
-                int currentClientFindInd = allClients.FindIndex(x => x.ClientId.Equals(selectedClient.ClientId));
-                int currentAccountFindInd = allClients[currentClientFindInd].ClientAccounts.FindIndex(x => x.AccountId.Equals(SelectedAccount.AccountId));
+                if (flag)
+                {
+                    int sum = Convert.ToInt32(SumToAdd);
+                    double newBalance = SelectedAccount.Balance + sum;
+                    List<Client> allClients = Json.DeserializedCustomersJson();
 
-                allClients[currentClientFindInd].ClientAccounts[currentAccountFindInd].Balance = newBalance;
-                Json.SerializeJson(allClients);
-                Logs.AccountEvent += () => { MessageBox.Show($"Счет пополнен на {SumToAdd} руб. "); };
-                Logs.SaveLog( SelectedAccount, SumToAdd, "Пополнение");
-                UpdateClients(mainWindowVM);
-                window.Close();
+                    int currentClientFindInd = allClients.FindIndex(x => x.ClientId.Equals(selectedClient.ClientId));
+                    int currentAccountFindInd = allClients[currentClientFindInd].ClientAccounts.FindIndex(x => x.AccountId.Equals(SelectedAccount.AccountId));
+
+                    allClients[currentClientFindInd].ClientAccounts[currentAccountFindInd].Balance = newBalance;
+                    Json.SerializeJson(allClients);
+                    Logs.AccountEvent += () => { MessageBox.Show($"Счет пополнен на {SumToAdd} руб. "); };
+                    Logs.SaveLog(SelectedAccount, SumToAdd, "Пополнение");
+                    UpdateClients(mainWindowVM);
+                    window.Close();
+                }
+
             });
 
             Clients = new ObservableCollection<Client>();

@@ -149,5 +149,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MoneyCheckLibrary\MoneyCheckLibrary.csproj">
+      <Project>{c0b414a0-7e53-4bb0-b228-c7803decc929}</Project>
+      <Name>MoneyCheckLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

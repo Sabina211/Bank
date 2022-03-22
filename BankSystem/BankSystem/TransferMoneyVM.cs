@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using MoneyCheckLibrary;
+using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
@@ -30,7 +32,7 @@ namespace BankSystem
             get { return selectedRecipientAccount; }
         }
 
-        public double TransferSum { get; set; }
+        public string TransferSum { get; set; }
         public ICommand TransferCommand { get; }
 
 
@@ -55,19 +57,25 @@ namespace BankSystem
                 {
                     MessageBox.Show("Нельзя при переводе использовать закрытые счета"); return;
                 }
+                bool flag = MoneyFormat.CheckFormatMoney(TransferSum);
 
-                if (SelectedAccount.Balance >= TransferSum)
+                if (flag)
                 {
-                    allClients[currentClientFindInd].ClientAccounts[currentAccountFindInd].Balance = allClients[currentClientFindInd].ClientAccounts[currentAccountFindInd].Balance - TransferSum;
-                    allClients[recipientClientFindInd].ClientAccounts[recipientAccountFindInd].Balance = allClients[recipientClientFindInd].ClientAccounts[recipientAccountFindInd].Balance + TransferSum;
-                }
-                else { MessageBox.Show("Недостаточно средств"); return; }
 
-                Json.SerializeJson(allClients);
-                Logs.AccountEvent += () => { MessageBox.Show($"Перевод {TransferSum} руб. успешно выполнен"); };
-                Logs.SaveLog(SelectedAccount, SelectedRecipientAccount, TransferSum.ToString(), "Перевод денег");
-                UpdateClients(mainWindowVM);
-                window.Close();
+                    if (SelectedAccount.Balance >= Convert.ToDouble(TransferSum))
+                    {
+                        allClients[currentClientFindInd].ClientAccounts[currentAccountFindInd].Balance = allClients[currentClientFindInd].ClientAccounts[currentAccountFindInd].Balance - Convert.ToDouble(TransferSum);
+                        allClients[recipientClientFindInd].ClientAccounts[recipientAccountFindInd].Balance = allClients[recipientClientFindInd].ClientAccounts[recipientAccountFindInd].Balance + Convert.ToDouble(TransferSum);
+                    }
+                    else { MessageBox.Show("Недостаточно средств"); return; }
+
+                    Json.SerializeJson(allClients);
+                    Logs.AccountEvent += () => { MessageBox.Show($"Перевод {TransferSum} руб. успешно выполнен"); };
+                    Logs.SaveLog(SelectedAccount, SelectedRecipientAccount, TransferSum.ToString(), "Перевод денег");
+                    UpdateClients(mainWindowVM);
+                    window.Close();
+                }
+
             });
 
             Clients = new ObservableCollection<Client>();
