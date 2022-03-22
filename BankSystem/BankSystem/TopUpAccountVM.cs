@@ -25,8 +25,6 @@ namespace BankSystem
                     return;
                 }
                 window = Application.Current.Windows.OfType<TopUpAccount>().SingleOrDefault(w => w.IsActive);
-               
-                //bool flag = false;
                 bool flag = MoneyFormat.CheckFormatMoney(SumToAdd);
 
                 if (flag)
