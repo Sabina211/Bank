@@ -21,7 +21,7 @@ namespace BankSystem
                 if (SumToAdd == null || SelectedAccount== null) { ErrorEnable = "Visible"; return; }
                 if (SelectedAccount.IsActive==false)
                 {
-                    MessageBox.Show("Невозможно пополнить закрытый счет");
+                    MessageBox.Show("Нельзя пополнить закрытый счет");
                     return;
                 }
                 window = Application.Current.Windows.OfType<TopUpAccount>().SingleOrDefault(w => w.IsActive);
