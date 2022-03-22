@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem", "BankSystem\BankSystem.csproj", "{2DE6D346-B4D3-423C-BD4B-E146C4F85369}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Train15_1", "..\..\Тренировочные\Train15\Train15_1\Train15_1.csproj", "{A355D4FF-E1B7-4105-BA8A-238D167F5BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyCheckLibrary", "MoneyCheckLibrary\MoneyCheckLibrary.csproj", "{C0B414A0-7E53-4BB0-B228-C7803DECC929}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2DE6D346-B4D3-423C-BD4B-E146C4F85369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE6D346-B4D3-423C-BD4B-E146C4F85369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE6D346-B4D3-423C-BD4B-E146C4F85369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A355D4FF-E1B7-4105-BA8A-238D167F5BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A355D4FF-E1B7-4105-BA8A-238D167F5BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A355D4FF-E1B7-4105-BA8A-238D167F5BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A355D4FF-E1B7-4105-BA8A-238D167F5BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B414A0-7E53-4BB0-B228-C7803DECC929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B414A0-7E53-4BB0-B228-C7803DECC929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B414A0-7E53-4BB0-B228-C7803DECC929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B414A0-7E53-4BB0-B228-C7803DECC929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

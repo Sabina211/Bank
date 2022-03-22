@@ -1,0 +1,6 @@
+E:\Сабина, курс\Задание 14\BankSystem\MoneyCheckLibrary\bin\Debug\MoneyCheckLibrary.dll
+E:\Сабина, курс\Задание 14\BankSystem\MoneyCheckLibrary\bin\Debug\MoneyCheckLibrary.pdb
+E:\Сабина, курс\Задание 14\BankSystem\MoneyCheckLibrary\obj\Debug\MoneyCheckLibrary.csprojAssemblyReference.cache
+E:\Сабина, курс\Задание 14\BankSystem\MoneyCheckLibrary\obj\Debug\MoneyCheckLibrary.csproj.CoreCompileInputs.cache
+E:\Сабина, курс\Задание 14\BankSystem\MoneyCheckLibrary\obj\Debug\MoneyCheckLibrary.dll
+E:\Сабина, курс\Задание 14\BankSystem\MoneyCheckLibrary\obj\Debug\MoneyCheckLibrary.pdb
